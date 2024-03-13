@@ -1,0 +1,56 @@
+{
+    "name": "Action",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "db6d699c-c0c5-4b66-9cde-4b8648bc5078",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1c81a617-5f78-4151-96e2-3d5e87b8f964",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "f2b287fd-1df2-43aa-85a6-b755643f5ac4",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "c0772fa1-a155-46b1-be7e-c6156457109a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "990aa170-f440-4b9f-bcff-86955afd5c71",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
